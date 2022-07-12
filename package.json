@@ -1,0 +1,40 @@
+{
+  "name": "insomnia-plugin-random",
+  "version": "0.0.0",
+  "description": "Generate random data for insomnia",
+  "main": "index.js",
+  "author": "Alessandro Martini <18130319+martini97@users.noreply.github.com>",
+  "license": "MIT",
+  "keywords": [
+    "insomnia",
+    "insomnia-plugin",
+    "chance",
+    "random",
+    "random-generation"
+  ],
+  "insomnia": {
+    "name": "random",
+    "description": "Generate a random values"
+  },
+  "dependencies": {
+    "chance": "^1.1.8"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "cz": "cz",
+    "lint": "eslint index.js",
+    "prepare": "husky install"
+  }
+}

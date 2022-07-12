@@ -22,8 +22,8 @@ const chance = new Chance(Math.random);
 
 /** @type {InsomniaTemplateTag} **/
 const bool = {
-  displayName: "random.bool",
-  name: "random.bool",
+  displayName: "randomBool",
+  name: "randomBool",
   description: "Generate a random boolean value (true or false).",
   args: [
     {
@@ -40,8 +40,8 @@ const bool = {
 
 /** @type {InsomniaTemplateTag} **/
 const sentence = {
-  displayName: "random.sentence",
-  name: "random.sentence",
+  displayName: "randomSentence",
+  name: "randomSentence",
   description: "Generate a random sentence.",
   args: [
     {
@@ -58,8 +58,8 @@ const sentence = {
 
 /** @type {InsomniaTemplateTag} **/
 const floating = {
-  displayName: "random.floating",
-  name: "random.floating",
+  displayName: "randomFloating",
+  name: "randomFloating",
   description: "Generate a random floating point number.",
   args: [
     {

@@ -1,5 +1,5 @@
 {
-  "name": "@martini97/insomnia-plugin-random",
+  "name": "insomnia-plugin-amchance",
   "version": "0.0.0-development",
   "description": "Generate random data for insomnia",
   "main": "index.js",

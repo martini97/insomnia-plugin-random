@@ -1,6 +1,6 @@
 {
-  "name": "insomnia-plugin-random",
-  "version": "0.0.0",
+  "name": "@martini97/insomnia-plugin-random",
+  "version": "0.0.0-development",
   "description": "Generate random data for insomnia",
   "main": "index.js",
   "author": "Alessandro Martini <18130319+martini97@users.noreply.github.com>",
@@ -25,7 +25,8 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3"
   },
   "config": {
     "commitizen": {
@@ -35,6 +36,14 @@
   "scripts": {
     "cz": "cz",
     "lint": "eslint index.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martini97/insomnia-plugin-random.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martini97/insomnia-plugin-random/issues"
   }
 }

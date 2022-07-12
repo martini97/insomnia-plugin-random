@@ -45,5 +45,8 @@
   },
   "bugs": {
     "url": "https://github.com/martini97/insomnia-plugin-random/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
